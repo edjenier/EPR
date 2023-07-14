@@ -1,0 +1,91 @@
+.container {
+  width: 300px;
+  margin: 200px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 30px rgb(2, 2, 2);
+  background-color: white;
+}
+
+.form-g {
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: grey !important;
+  overflow: hidden !important;
+  background-size: 200px;
+  background: linear-gradient(45deg, rgb(7, 7, 7), white);
+  margin: 20px;
+  padding: 20px;
+}
+
+h2 {
+  transition: all 200ms ease;
+}
+h2:hover {
+  transform: scale(1.1);
+  color: grey !important;
+}
+
+h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+input[type=text],
+input[type=password] {
+  display: flex;
+  justify-content: center;
+  width: 95.7%;
+  padding: 5px;
+}
+
+.btn {
+  background-color: black !important;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  cursor: pointer !important;
+  display: flex;
+  justify-content: center;
+  padding: 9px;
+  transition: all 200ms ease;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+header {
+  background-color: black;
+  display: flex;
+  min-height: 70px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 1700px;
+  margin: -26px;
+  box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 150px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}/*# sourceMappingURL=style.css.map */
